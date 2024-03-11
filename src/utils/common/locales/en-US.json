@@ -1,0 +1,75 @@
+{
+    "message": {
+        "welcome": "Welcome!",
+        "greeting": "Hello, {name}!",
+        "farewell": "Goodbye, {name}!",
+        "loading": "Loading..."
+    },
+    "form":{
+        "email": "Email",
+        "username": "Username",
+        "fullname": "Fullname",
+        "address": "Address",
+        "gender": "Gender",
+        "birthday": "Birthday",
+        "phone": "Phone number",
+        "password": "Password",
+        "re_password": "Confirm password",
+        "old_password": "Old password",
+        "new_password": "New password",
+        "has_not_account": "Don't have an account?",
+        "has_account": "Already have an account?",
+        "back": "Back to login",
+        "place_holder": {
+            "email": "Enter email",
+            "password": "Enter password",
+            "username": "Enter username",
+            "fullname": "Enter fullname",
+            "address": "Enter address",
+            "search":"Search..."
+        }
+    },
+    "error": {
+        "not_found": {
+            "title": "Not found",
+            "message": "The page you requested was not found"
+        },
+        "server_error": {
+            "title": "Server error",
+            "message": "An error occurred while processing your request"
+        },
+        "unauthorized": {
+            "title": "Unauthorized",
+            "message": "You are not authorized to access this page"
+        }
+    },
+    "oauth2":{
+        "login": "Login",
+        "signout": "Sign out",
+        "register": "Register",
+        "profile": "Profile",
+        "change_password": "Change password",
+        "forgot_password": "Forgot password",
+        "reset_password": "Reset password",
+        "change_email": "Change email",
+        "change_phone": "Change phone",
+        "change_avatar": "Change avatar"
+    },
+    "button":{
+        "ok": "Ok",
+        "cancel": "Cancel",
+        "close": "Close",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "add": "Add",
+        "back": "Back",
+        "confirm": "Confirm"
+    },
+    "navigation":{
+        "dashboard": "Dashboard",
+        "songs": "Songs",
+        "albums": "Albums",
+        "setting": "Setting"
+    }
+}

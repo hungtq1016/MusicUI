@@ -1,0 +1,9 @@
+{
+    "oauth2":{
+        "index": "/authenticate/",
+        "login": "/authenticate/login",
+        "register": "/authenticate/register",
+        "reset": "/authenticate/reset-password",
+        "profile": "/authenticate/profile"
+    }
+}

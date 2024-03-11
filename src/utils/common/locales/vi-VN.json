@@ -1,0 +1,75 @@
+{
+    "message": {
+        "welcome": "Chào mừng!",
+        "greeting": "Xin chào, {name}!",
+        "farewell": "Tạm biệt, {name}!",
+        "loading": "Đang tải..."
+    },
+    "form":{
+        "email": "Địa chỉ email",
+        "username": "Tên đăng nhập",
+        "fullname": "Họ và tên",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "birthday": "Ngày sinh",
+        "phone": "Số điện thoại",
+        "password": "Mật khẩu",
+        "re_password": "Nhập lại mật khẩu",
+        "old_password": "Mật khẩu cũ",
+        "new_password": "Mật khẩu mới",
+        "has_not_account": "Bạn không có tài khoản?",
+        "has_account": "Bạn đã có tài khoản?",
+        "back": "Quay lại trang đăng nhập",
+        "place_holder": {
+            "email": "Nhập địa chỉ email",
+            "password": "Nhập mật khẩu",
+            "username": "Nhập tên đăng nhập",
+            "fullname": "Nhập họ và tên",
+            "address": "Nhập địa chỉ",
+            "search":"Tìm kiếm..."
+        }
+    },
+    "error": {
+        "not_found": {
+            "title": "Không tìm thấy",
+            "message": "Không tìm thấy trang bạn yêu cầu"
+        },
+        "server_error": {
+            "title": "Lỗi máy chủ",
+            "message": "Có lỗi xảy ra khi xử lý yêu cầu của bạn"
+        },
+        "unauthorized": {
+            "title": "Không được phép",
+            "message": "Bạn không có quyền truy cập trang này"
+        }
+    },
+    "oauth2":{
+        "login": "Đăng nhập",
+        "signout": "Đăng xuất",
+        "register": "Đăng ký",
+        "profile": "Hồ sơ",
+        "change_password": "Đổi mật khẩu",
+        "forgot_password": "Quên mật khẩu",
+        "reset_password": "Đặt lại mật khẩu",
+        "change_email": "Đổi email",
+        "change_phone": "Đổi số điện thoại",
+        "change_avatar": "Đổi ảnh đại diện"
+    },
+    "button":{
+        "ok": "Đồng ý",
+        "cancel": "Hủy",
+        "close": "Đóng",
+        "save": "Lưu",
+        "delete": "Xóa",
+        "edit": "Sửa",
+        "add": "Thêm",
+        "back": "Quay lại",
+        "confirm": "Xác nhận"
+    },
+    "navigation":{
+        "dashboard": "Bảng điều khiển",
+        "songs": "Bài hát",
+        "albums": "Albums",
+        "setting": "Cài đặt"
+    }
+}

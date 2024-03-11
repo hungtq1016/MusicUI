@@ -1,0 +1,75 @@
+{
+    "message": {
+        "welcome": "ようこそ!",
+        "greeting": "こんにちは、{name}さん!",
+        "farewell": "さようなら、{name}さん!",
+        "loading": "読み込み中..."
+    },
+    "form": {
+        "email": "メール",
+        "username": "ユーザー名",
+        "fullname": "フルネーム",
+        "address": "住所",
+        "gender": "性別",
+        "birthday": "生年月日",
+        "phone": "電話番号",
+        "password": "パスワード",
+        "re_password": "パスワードの確認",
+        "old_password": "古いパスワード",
+        "new_password": "新しいパスワード",
+        "has_not_account": "アカウントをお持ちでないですか？",
+        "has_account": "すでにアカウントをお持ちですか？",
+        "back": "ログインに戻る",
+        "place_holder": {
+            "email": "メールを入力",
+            "password": "パスワードを入力",
+            "username": "ユーザー名を入力",
+            "fullname": "フルネームを入力",
+            "address": "住所を入力",
+            "search": "検索..."
+        }
+    },
+    "error": {
+        "not_found": {
+            "title": "見つかりません",
+            "message": "お探しのページは見つかりませんでした"
+        },
+        "server_error": {
+            "title": "サーバーエラー",
+            "message": "リクエストの処理中にエラーが発生しました"
+        },
+        "unauthorized": {
+            "title": "許可されていません",
+            "message": "このページにアクセスする権限がありません"
+        }
+    },
+    "oauth2": {
+        "login": "ログイン",
+        "signout": "サインアウト",
+        "register": "登録",
+        "profile": "プロフィール",
+        "change_password": "パスワードの変更",
+        "forgot_password": "パスワードを忘れた",
+        "reset_password": "パスワードのリセット",
+        "change_email": "メールの変更",
+        "change_phone": "電話番号の変更",
+        "change_avatar": "アバターの変更"
+    },
+    "button": {
+        "ok": "OK",
+        "cancel": "キャンセル",
+        "close": "閉じる",
+        "save": "保存",
+        "delete": "削除",
+        "edit": "編集",
+        "add": "追加",
+        "back": "戻る",
+        "confirm": "確認"
+    },
+    "navigation":{
+        "dashboard": "ダッシュボード",
+        "songs": "曲",
+        "albums": "アルバム",
+        "setting": "設定"
+    }
+}
