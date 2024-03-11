@@ -11,12 +11,10 @@ export const useMobile = defineStore('mobile', () => {
 
     const closeNavigation = () => {
         isNavigationOpen.value = false;
-        console.log(isNavigationOpen.value)
     }
 
     const openNavigation = () => {
         isNavigationOpen.value = true;
-        console.log(isNavigationOpen.value)
     }
 
     return { isNavigationOpen, toggleNavigation, closeNavigation, openNavigation };
