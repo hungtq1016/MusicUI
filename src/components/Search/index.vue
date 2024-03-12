@@ -1,7 +1,7 @@
 <template>
   <div
     class="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
-    <button type="button" class="-m-2.5 p-2.5 text-gray-700 " @click="openNavigation">
+    <button type="button" class="-m-2.5 p-2.5 text-gray-700 lg:hidden" @click="mobile.openNavigation">
       <span class="sr-only">Open sidebar</span>
       <Bars3Icon class="h-6 w-6" aria-hidden="true" />
     </button>
@@ -44,6 +44,11 @@
                 :class="[active ? 'bg-gray-50' : '', 'block px-3 py-1 text-sm leading-6 text-gray-900']">{{ $t(item.name)
                 }}</a>
               </MenuItem>
+              <MenuItem >
+              <button @click="signout"
+                class="block px-3 py-1 text-sm leading-6 text-gray-900">{{ $t('oauth2.signout')
+                }}</button>
+              </MenuItem>
             </MenuItems>
           </transition>
         </Menu>
@@ -66,11 +71,9 @@ import { Bars3Icon, BellIcon, } from '@heroicons/vue/24/outline'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 import SearchInput from './SearchInput.vue'
 import  {useMobile}  from '@/stores/mobile'
+import { userNavigation } from '@/logistics/navigation/navigation.logistic'
+import { signout } from '@/logistics/oauth2/signout.logistic'
 
-const userNavigation = [
-  { name: 'oauth2.profile', href: '#' },
-  { name: 'oauth2.signout', href: '#' },
-]
-const { openNavigation } = useMobile()
+const mobile = useMobile()
 
 </script>

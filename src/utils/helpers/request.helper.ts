@@ -1,9 +1,11 @@
 import axios from 'axios';
 import { stringify } from '@/utils/utils/string.util';
 import { urlBuilder } from '@/utils/utils/url.util';
+import {i18n} from '@/utils/services/translations';
+
 import type { AxiosRequestConfig } from 'axios'
 import type { Response } from '@/types/type';
-import {i18n} from '@/utils/services/translations'
+import { errorHandling } from './error.helper';
 
 // Define a helper function for making API requests
 async function makeRequest<TRequest,TResponse>(method: string, path: string, data?: TRequest, queryParams?: any) {
@@ -30,9 +32,9 @@ async function makeRequest<TRequest,TResponse>(method: string, path: string, dat
         return response.data;
 
     }
-    catch (error) {
-        console.error(i18n.global.t('error.server_error'), error);
-        throw new Error(i18n.global.t('error.server_error'));
+    catch (err : any) {
+        console.log(i18n.global.t('error.server_error.message'), err);
+        errorHandling(err.response.data.message, err.response.status)
     }
 
     // Return the response data

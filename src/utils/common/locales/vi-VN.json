@@ -3,7 +3,8 @@
         "welcome": "Chào mừng!",
         "greeting": "Xin chào, {name}!",
         "farewell": "Tạm biệt, {name}!",
-        "loading": "Đang tải..."
+        "loading": "Đang tải...",
+        "login_success": "Đăng nhập thành công"
     },
     "form":{
         "email": "Địa chỉ email",
@@ -27,7 +28,19 @@
             "fullname": "Nhập họ và tên",
             "address": "Nhập địa chỉ",
             "search":"Tìm kiếm..."
+        },
+        "validation":{
+            "required": "Trường này là bắt buộc",
+            "email": "Email không hợp lệ",
+            "password": "Mật khẩu không hợp lệ",
+            "re_password": "Mật khẩu không khớp",
+            "username": "Tên người dùng phải có ít nhất 6 ký tự",
+            "fullname": "Họ tên phải có ít nhất 6 ký tự",
+            "address": "Địa chỉ phải có ít nhất 6 ký tự",
+            "phone": "Số điện thoại không hợp lệ",
+            "birthday": "Ngày sinh không hợp lệ"
         }
+        
     },
     "error": {
         "not_found": {

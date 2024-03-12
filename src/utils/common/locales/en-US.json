@@ -3,7 +3,8 @@
         "welcome": "Welcome!",
         "greeting": "Hello, {name}!",
         "farewell": "Goodbye, {name}!",
-        "loading": "Loading..."
+        "loading": "Loading...",
+        "login_success": "Login success"
     },
     "form":{
         "email": "Email",
@@ -27,6 +28,17 @@
             "fullname": "Enter fullname",
             "address": "Enter address",
             "search":"Search..."
+        },
+        "validation":{
+            "required": "This field is required",
+            "email": "Invalid email",
+            "password": "Invalid password",
+            "re_password": "Password does not match",
+            "username": "Username must be at least 6 characters",
+            "fullname": "Fullname must be at least 6 characters",
+            "address": "Address must be at least 6 characters",
+            "phone": "Invalid phone number",
+            "birthday": "Invalid birthday"
         }
     },
     "error": {

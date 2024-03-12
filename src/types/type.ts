@@ -6,7 +6,7 @@ export type Response<T> = {
 };
 
 export type TokenResponse = {
-    acessToken: string,
+    accessToken: string,
     refreshToken: string,
     tokenType: string,
     expiredAt: string

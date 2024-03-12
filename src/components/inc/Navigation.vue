@@ -7,13 +7,18 @@
         <nav class="flex flex-1 flex-col">
           <ul role="list" class="flex flex-1 flex-col gap-y-7">
             <li>
-              <ul role="list" class="-mx-2 space-y-1">
-                <li v-for="(item,index) in navigation" :key="item.name" @click="click(index)">
-                  <RouterLink :to="item.to" :class="[item.current ? 'bg-gray-800 text-white' : 'text-gray-400 hover:text-white hover:bg-gray-800', 'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold']">
-                    <component :is="item.icon" class="h-6 w-6 shrink-0" aria-hidden="true" />
-                    {{$t(item.name) }}
-                  </RouterLink>
-                </li>
+              <ul role="list" class="-mx-2 flex flex-col gap-y-1">
+                <template v-for="(item) in navigation" :key="item.name">
+                        <RouterLink :to="item.to" v-slot="{ href , navigate, isActive, isExactActive }">
+                          <li
+                            :class="[isActive ? 'bg-gray-800 text-white' : 'text-gray-400 hover:text-white hover:bg-gray-800','rounded-md', isExactActive && 'router-link-exact-active']">
+                            <a :href="href" @click="navigate" class="group flex gap-x-3 p-2 text-sm leading-6 font-semibold">
+                              <component :is="item.icon" class="h-6 w-6 shrink-0" aria-hidden="true" />
+                              {{ $t(item.name) }}
+                            </a>
+                          </li>
+                        </RouterLink>
+                  </template> 
               </ul>
             </li>
             <li class="mt-auto">
@@ -29,6 +34,6 @@
 </template>
 
 <script setup lang="ts">
-import { navigation, click } from '@/logistics/navigation'
+import { navigation } from '@/logistics/navigation/navigation.logistic'
 import { Cog6ToothIcon } from '@heroicons/vue/24/outline';
 </script>
