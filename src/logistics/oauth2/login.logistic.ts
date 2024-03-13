@@ -49,7 +49,7 @@ export const submit = async () => {
 
         if (saveResult) {
             await router.push('/')
-            successNotification(i18n.global.t('message.login_success'))
+            successNotification(i18n.global.t('message.loginSuccess'))
         }
     }
 }

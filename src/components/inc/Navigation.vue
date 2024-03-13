@@ -34,6 +34,6 @@
 </template>
 
 <script setup lang="ts">
-import { navigation } from '@/logistics/navigation/navigation.logistic'
+import { navigation } from '@/logistics/inc/navigation.logistic'
 import { Cog6ToothIcon } from '@heroicons/vue/24/outline';
 </script>

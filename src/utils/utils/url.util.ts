@@ -3,13 +3,13 @@ import pathObj from '@/utils/common/path.json';
 
 export function urlBuilder(path: string, params?: object): string {
 
-    let queryString : string = import.meta.env.VITE_API_DOMAIN + ':' + import.meta.env.VITE_API_HOST + '/api' + path;
+    let queryString : string = import.meta.env.VITE_API_DOMAIN + ':' + import.meta.env.VITE_API_HOST + path;
 
     if (params) {
         const query = Object.entries(params)
         .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
         .join('&');
-        queryString = `?${query}`;
+        queryString += `?${query}`;
     }
     
     return queryString;

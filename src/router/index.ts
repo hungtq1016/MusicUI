@@ -17,14 +17,14 @@ const router = createRouter({
       ]
     },
     {
-      path: '/songs',
-      name: 'songs',
+      path: '/audios',
+      name: 'audios',
       component: () => import('@/views/Managerment.vue'),
       children: [
         {
           path: '',
-          name: 'songs-table',
-          component: () => import('@/pages/Managerment/Dashboard.vue'),
+          name: 'audios-table',
+          component: () => import('@/pages/Managerment/TheAudio.vue'),
         }
         
       ]

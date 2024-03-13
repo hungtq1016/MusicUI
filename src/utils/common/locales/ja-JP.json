@@ -4,7 +4,9 @@
         "greeting": "こんにちは、{name}さん!",
         "farewell": "さようなら、{name}さん!",
         "loading": "読み込み中...",
-        "login_success": "ログインに成功しました"
+        "loginSuccess": "ログインに成功しました",
+        "copySuccess": "{name} のコピーが成功しました",
+        "deleteSuccess" : "削除 {name} 成功"
     },
     "form": {
         "email": "メール",
@@ -80,8 +82,36 @@
     },
     "navigation":{
         "dashboard": "ダッシュボード",
-        "songs": "曲",
-        "albums": "アルバム",
+        "audio": "オーディオ",
+        "album": "アルバム",
         "setting": "設定"
+    },
+    "table": {
+        "id": "ID（識別子）",
+        "alt": "代替テキスト",
+        "path": "パス",
+        "size": "サイズ",
+        "extension": "拡張子",
+        "enable": "有効",
+        "title": "タイトル",
+        "createdAt": "作成日時",
+        "updatedAt": "更新日時",
+        "action": "操作",
+        "selectHeader": "ヘッダーを選択",
+        "selected": "{count} 選択されました",
+        "showTo": "{from} から表示",
+        "showOf": "総エントリー数 {total} 件中",
+        "selectAction": "アクションを選択",
+        "selectedRows": "{count} 行を選択",
+        "disableAll": "すべて無効にする",
+        "deleteAll": "すべて削除する",
+        "enableAll": "すべて有効にする"
+    },
+    "status":{
+        "active": "アクティブ",
+        "inactive": "非アクティブ"
+    },
+    "html":{
+        "browserNotSupport": "お使いのブラウザは {element} 要素をサポートしていません。"
     }
 }

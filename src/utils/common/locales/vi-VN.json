@@ -4,7 +4,9 @@
         "greeting": "Xin chào, {name}!",
         "farewell": "Tạm biệt, {name}!",
         "loading": "Đang tải...",
-        "login_success": "Đăng nhập thành công"
+        "loginSuccess": "Đăng nhập thành công",
+        "copySuccess": "Sao chép {name} thành công",
+        "deleteSuccess": "Xóa {name} thành công"
     },
     "form":{
         "email": "Địa chỉ email",
@@ -81,8 +83,36 @@
     },
     "navigation":{
         "dashboard": "Bảng điều khiển",
-        "songs": "Bài hát",
-        "albums": "Albums",
+        "audio": "Âm nhạc",
+        "album": "Albums",
         "setting": "Cài đặt"
+    },
+    "table": {
+        "id": "ID",
+        "alt": "Chú thích",
+        "path": "Đường dẫn",
+        "size": "Kích thước",
+        "extension": "Phần mở rộng",
+        "enable": "Trạng thái",
+        "title": "Tiêu đề",
+        "createdAt": "Ngày tạo",
+        "updatedAt": "Ngày cập nhật",
+        "action": "Hành động",
+        "selectHeader": "Chọn header",
+        "selected": "{count} đã được chọn",
+        "showTo": "Hiển thị từ {from} đến",
+        "showOf": "của {total} mục",
+        "selectAction": "Chọn hành động",
+        "selectedRows": "{count} hàng đã được chọn",
+        "disableAll": "Vô hiệu hóa tất cả",
+        "deleteAll": "Xóa tất cả",
+        "enableAll": "Bật tất cả"
+    },
+    "status":{
+        "active": "Hoạt động",
+        "inactive": "Không hoạt động"
+    },
+    "html":{
+        "browserNotSupport": "Trình duyệt của bạn không hỗ trợ phần tử {element}."
     }
 }

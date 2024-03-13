@@ -65,8 +65,8 @@
 import { TransitionRoot, TransitionChild, Dialog, DialogPanel } from '@headlessui/vue'
 import { useMobile } from '@/stores/mobile'
 import { Cog6ToothIcon, XMarkIcon } from '@heroicons/vue/24/outline';
-import { navigation } from '@/logistics/navigation/navigation.logistic'
+import { navigation } from '@/logistics/inc/navigation.logistic'
 
 const mobile = useMobile()
 
-</script>
+</script>@/logistics/inc/navigation.logistic

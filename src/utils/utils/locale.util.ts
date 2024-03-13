@@ -6,9 +6,10 @@ interface LocaleNames {
 }
 
 export const getLocaleName = (locale: string, localeNames: LocaleNames = names): string => {
-  return localeNames[locale] || 'Unknown Locale';
+  return localeNames[locale] || 'en';
 };
 
 export const getLocaleImage = (locale: string, localeImages: LocaleNames = images): string => {
   return localeImages[locale] || '#';
 };
+

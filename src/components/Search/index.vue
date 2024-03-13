@@ -71,9 +71,9 @@ import { Bars3Icon, BellIcon, } from '@heroicons/vue/24/outline'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 import SearchInput from './SearchInput.vue'
 import  {useMobile}  from '@/stores/mobile'
-import { userNavigation } from '@/logistics/navigation/navigation.logistic'
+import { userNavigation } from '@/logistics/inc/navigation.logistic'
 import { signout } from '@/logistics/oauth2/signout.logistic'
 
 const mobile = useMobile()
 
-</script>
+</script>@/logistics/inc/navigation.logistic

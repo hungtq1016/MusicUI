@@ -4,7 +4,9 @@
         "greeting": "Hello, {name}!",
         "farewell": "Goodbye, {name}!",
         "loading": "Loading...",
-        "login_success": "Login success"
+        "loginSuccess": "Login success",
+        "copySuccess": "Copy {name} success",
+        "deleteSuccess": "Delete {name} success"
     },
     "form":{
         "email": "Email",
@@ -80,8 +82,36 @@
     },
     "navigation":{
         "dashboard": "Dashboard",
-        "songs": "Songs",
-        "albums": "Albums",
+        "audio": "Audios",
+        "album": "Albums",
         "setting": "Setting"
+    },
+    "table":{
+        "id": "ID",
+        "alt": "Alt",
+        "path": "Path",
+        "size": "Size",
+        "extension": "Extension",
+        "enable": "Enable",
+        "title": "Title",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at",
+        "action": "Action",
+        "selectHeader": "Select a header",
+        "selected": "{count} selected",
+        "showTo": "Show {from} to",
+        "showOf":"of {total} entries",
+        "selectAction": "Select action",
+        "selectedRows": "{count} selected rows",
+        "disableAll": "Disable all",
+        "deleteAll": "Delete all",
+        "enableAll": "Enable all"
+    },
+    "status":{
+        "active": "Active",
+        "inactive": "Inactive"
+    },
+    "html":{
+        "browserNotSupport":"Your browser does not support the {element} element."
     }
 }
