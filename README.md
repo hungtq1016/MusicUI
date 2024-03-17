@@ -18,6 +18,12 @@ This is a simple Vue.js application that demonstrates the usage of various Vue.j
 - Feature : Coming soon.
 - ...
 
+## Structure
+
+For details on the project's structure and the purpose of each directory, please see the [Src structure](./src/README.md).
+
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
+
