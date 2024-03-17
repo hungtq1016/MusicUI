@@ -21,7 +21,3 @@ This is a simple Vue.js application that demonstrates the usage of various Vue.j
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
