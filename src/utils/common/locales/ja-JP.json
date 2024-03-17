@@ -6,7 +6,9 @@
         "loading": "読み込み中...",
         "loginSuccess": "ログインに成功しました",
         "copySuccess": "{name} のコピーが成功しました",
-        "deleteSuccess" : "削除 {name} 成功"
+        "deleteSuccess" : "削除 {name} 成功",
+        "updateSuccess" : "更新 成功",
+        "confirmDelete": "{name} を削除してもよろしいですか？"
     },
     "form": {
         "email": "メール",
@@ -61,7 +63,6 @@
         "login": "ログイン",
         "signout": "サインアウト",
         "register": "登録",
-        "profile": "プロフィール",
         "change_password": "パスワードの変更",
         "forgot_password": "パスワードを忘れた",
         "reset_password": "パスワードのリセット",
@@ -81,10 +82,17 @@
         "confirm": "確認"
     },
     "navigation":{
+        "all": "すべて",
+        "menu": "メニュー",
+        "other": "その他",
+        "chart": "チャート",
         "dashboard": "ダッシュボード",
         "audio": "オーディオ",
         "album": "アルバム",
-        "setting": "設定"
+        "setting": "設定",
+        "profile": "プロフィール",
+        "contacts": "連絡先",
+        "collection": "コレクション"
     },
     "table": {
         "id": "ID（識別子）",
@@ -99,13 +107,14 @@
         "action": "操作",
         "selectHeader": "ヘッダーを選択",
         "selected": "{count} 選択されました",
-        "showTo": "{from} から表示",
-        "showOf": "総エントリー数 {total} 件中",
+        "show": "全 {total} 件中、{from} から {to} を表示",
         "selectAction": "アクションを選択",
         "selectedRows": "{count} 行を選択",
         "disableAll": "すべて無効にする",
         "deleteAll": "すべて削除する",
-        "enableAll": "すべて有効にする"
+        "enableAll": "すべて有効にする",
+        "name": "名前",
+        "slug": "スラッグ"
     },
     "status":{
         "active": "アクティブ",

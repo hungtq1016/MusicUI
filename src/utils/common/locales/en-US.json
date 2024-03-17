@@ -6,7 +6,9 @@
         "loading": "Loading...",
         "loginSuccess": "Login success",
         "copySuccess": "Copy {name} success",
-        "deleteSuccess": "Delete {name} success"
+        "deleteSuccess": "Delete {name} success",
+        "updateSuccess": "Update success",
+        "confirmDelete": "Are you sure you want to delete {name}?"
     },
     "form":{
         "email": "Email",
@@ -61,7 +63,6 @@
         "login": "Login",
         "signout": "Sign out",
         "register": "Register",
-        "profile": "Profile",
         "change_password": "Change password",
         "forgot_password": "Forgot password",
         "reset_password": "Reset password",
@@ -81,10 +82,17 @@
         "confirm": "Confirm"
     },
     "navigation":{
+        "all": "All",
+        "menu": "Menu",
+        "other": "Other",
+        "chart": "Chart",
         "dashboard": "Dashboard",
         "audio": "Audios",
         "album": "Albums",
-        "setting": "Setting"
+        "setting": "Setting",
+        "profile": "Profile",
+        "contacts": "Contacts",
+        "collection": "Collection"
     },
     "table":{
         "id": "ID",
@@ -99,13 +107,14 @@
         "action": "Action",
         "selectHeader": "Select a header",
         "selected": "{count} selected",
-        "showTo": "Show {from} to",
-        "showOf":"of {total} entries",
+        "show": "Show from {from} to {to} of {total} entries",
         "selectAction": "Select action",
         "selectedRows": "{count} selected rows",
         "disableAll": "Disable all",
         "deleteAll": "Delete all",
-        "enableAll": "Enable all"
+        "enableAll": "Enable all",
+        "name": "Name",
+        "slug": "Slug"
     },
     "status":{
         "active": "Active",

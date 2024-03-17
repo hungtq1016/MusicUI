@@ -6,7 +6,9 @@
         "loading": "Đang tải...",
         "loginSuccess": "Đăng nhập thành công",
         "copySuccess": "Sao chép {name} thành công",
-        "deleteSuccess": "Xóa {name} thành công"
+        "deleteSuccess": "Xóa {name} thành công",
+        "updateSuccess": "Cập nhật thành công",
+        "confirmDelete" : "Bạn có chắc chắn muốn xóa {name}?"
     },
     "form":{
         "email": "Địa chỉ email",
@@ -62,7 +64,6 @@
         "login": "Đăng nhập",
         "signout": "Đăng xuất",
         "register": "Đăng ký",
-        "profile": "Hồ sơ",
         "change_password": "Đổi mật khẩu",
         "forgot_password": "Quên mật khẩu",
         "reset_password": "Đặt lại mật khẩu",
@@ -82,10 +83,17 @@
         "confirm": "Xác nhận"
     },
     "navigation":{
+        "all": "Tất cả",
+        "menu": "Menu",
+        "other": "Khác",
+        "chart": "Biểu đồ",
         "dashboard": "Bảng điều khiển",
-        "audio": "Âm nhạc",
+        "audio": "Âm thanh",
         "album": "Albums",
-        "setting": "Cài đặt"
+        "setting": "Cài đặt",
+        "profile": "Hồ sơ",
+        "contacts": "Danh bạ",
+        "collection": "Bộ sưu tập"
     },
     "table": {
         "id": "ID",
@@ -100,13 +108,14 @@
         "action": "Hành động",
         "selectHeader": "Chọn header",
         "selected": "{count} đã được chọn",
-        "showTo": "Hiển thị từ {from} đến",
-        "showOf": "của {total} mục",
+        "show": "Hiển thị từ {from} đến {to} trong tổng số {total} mục",
         "selectAction": "Chọn hành động",
         "selectedRows": "{count} hàng đã được chọn",
         "disableAll": "Vô hiệu hóa tất cả",
         "deleteAll": "Xóa tất cả",
-        "enableAll": "Bật tất cả"
+        "enableAll": "Bật tất cả",
+        "name": "Tên",
+        "slug": "Đường dẫn"
     },
     "status":{
         "active": "Hoạt động",

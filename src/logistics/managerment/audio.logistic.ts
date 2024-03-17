@@ -1,12 +1,12 @@
 import { EnableEnum } from '@/types/enum';
-import type { FileResponse, Pagination, PaginationRequest, PaginationResponse } from "@/types/type";
+import type { TFileResponse, Pagination, PaginationRequest, PaginationResponse } from "@/types/type";
 import { get } from "@/utils/helpers/request.helper";
 import { getPath } from "@/utils/utils/url.util";
 import { ref, watch } from "vue";
 import type { Header } from "vue3-easy-data-table";
 
 export const headers: Header[] = [
-    { text: "table.id", value: "id" },
+    { text: "table.id", value: "id", width: 100 },
     { text: "table.title", value: "title", sortable: true },
     { text: "table.alt", value: "alt" },
     { text: "table.path", value: "path" },
@@ -35,15 +35,16 @@ const init_pagination: Pagination = {
     previousPage: 1,
 }
 
-export const items = ref<FileResponse[]>([]);
+export const items = ref<TFileResponse[]>([]);
 export const pagination = ref<Pagination>({ ...init_pagination });
 export const fetch = async () => {
-    const response = await get<any, PaginationResponse<FileResponse>>(getPath("api.audioPage"),paginationOptions.value);
+    
+    const response = await get<any, PaginationResponse<TFileResponse>>(getPath("api.audio-page"), paginationOptions.value);
     items.value = response?.data.data || [];
     pagination.value = response?.data || { ...init_pagination };
-    console.log(items.value)
+
 };
 
-watch(paginationOptions, async() => {
+watch(paginationOptions, async () => {
     await fetch();
-},{deep: true});
+}, { deep: true });

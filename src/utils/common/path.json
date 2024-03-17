@@ -7,7 +7,9 @@
         "profile": "/authenticate/profile"
     },
     "api":{
-        "audioPage":"/audios/page",
-        "audio":"/audios"
+        "audio-page":"/audios/page",
+        "audio":"/audios",
+        "collection-page":"/collections/page",
+        "collection":"/collections"
     }
 }

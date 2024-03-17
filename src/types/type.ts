@@ -1,4 +1,17 @@
+import type { FunctionalComponent, HTMLAttributes, VNodeProps } from "vue";
 import type { EnableEnum } from "./enum";
+
+export type TMenu =  {
+    name: string,
+    menuItems: TMenuItem[]
+}
+
+export type TMenuItem = {
+    icon?: string | FunctionalComponent<HTMLAttributes & VNodeProps, {}, any, {}>,
+    label: string,
+    route: string,
+    children?: TMenuItem[]
+}
 
 export type Response<T> = {
     data: T,
@@ -34,16 +47,26 @@ export type PaginationResponse<T> = Pagination & {
     data: T[],
 }
 
+export type SidebarItem = {
+    label: string
+  }
+  
+
 export type PaginationRequest = {
     pageNumber: number
     pageSize: number
-    enable : EnableEnum
+    enable: EnableEnum
 }
 
-export type FileResponse = {
-    Title: string
-    Alt: string
-    Size: number
-    Path: string
-    Extension: string
+export type TFileResponse = {
+    title: string
+    alt: string
+    size: number
+    path: string
+    extension: string
+}
+
+export type TOption = {
+    name:string,
+    value:string
 }
