@@ -56,7 +56,7 @@ const changeTextColor = () => {
         <option value="UK" class="text-lynch-500 dark:text-hit-gray-400">UK</option>
         <option value="Canada" class="text-lynch-500 dark:text-hit-gray-400">Canada</option>
       </select>
-      <span class="absolute top-1/2 right-4 z-10 -translate-y-1/2">
+      <span class="absolute top-1/2 right-4 z-[10] -translate-y-1/2">
         <svg
           width="24"
           height="24"

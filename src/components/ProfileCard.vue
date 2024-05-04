@@ -9,7 +9,7 @@
         alt="profile cover"
         class="h-full w-full rounded-tl-sm rounded-tr-sm object-cover object-center"
       />
-      <div class="absolute bottom-1 right-1 z-10 xsm:bottom-4 xsm:right-4">
+      <div class="absolute bottom-1 right-1 z-[10] xsm:bottom-4 xsm:right-4">
         <label
           for="cover"
           class="flex cursor-pointer items-center justify-center gap-2 rounded bg-cerulean-blue-600 py-1 px-2 text-sm font-medium text-white hover:bg-opacity-80 xsm:px-4"

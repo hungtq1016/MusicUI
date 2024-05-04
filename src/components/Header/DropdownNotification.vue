@@ -49,10 +49,10 @@ const notificationItems = ref([
     >
       <span
         :class="!notifying && 'hidden'"
-        class="absolute -top-px right-0 z-1 h-2 w-2 rounded-full bg-red-ribbon-600"
+        class="absolute -top-px right-0 z-[1] h-2 w-2 rounded-full bg-red-ribbon-600"
       >
         <span
-          class="absolute -z-1 inline-flex h-full w-full animate-ping rounded-full bg-red-ribbon-600 opacity-75"
+          class="absolute -z-[1] inline-flex h-full w-full animate-ping rounded-full bg-red-ribbon-600 opacity-75"
         ></span>
       </span>
       <BellIcon class="w-5 h-5 duration-300 ease-in-out" />

@@ -5,7 +5,7 @@
   >
     <div class="relative mt-2">
       <ListboxButton
-        class="relative cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-alabaster-5000 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6">
+        class="relative cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-alabaster-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6">
         <span class="flex items-center">
           {{ totalSelected ? $t('table.selected', { count: totalSelected }) : $t('table.selectHeader') }}
         </span>
@@ -17,7 +17,7 @@
       <transition leave-active-class="transition ease-in duration-100" leave-from-class="opacity-100"
         leave-to-class="opacity-0">
         <ListboxOptions
-          class="absolute z-10 mt-1 max-h-56 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-ebony-clay-950 ring-opacity-5 focus:outline-none sm:text-sm">
+          class="absolute z-[10] mt-1 max-h-56 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-ebony-clay-950 ring-opacity-5 focus:outline-none sm:text-sm">
           <ListboxOption as="template" v-for="item in options" :key="item.value" :value="item"
             v-slot="{ active, selected }">
             <li

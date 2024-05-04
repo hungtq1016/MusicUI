@@ -1,6 +1,6 @@
 <template>
     <div class="relative text-center">
-        <p class="text-white dark:text-alabaster-5000 mb-1">{{ i18n.global.t('message.confirmDelete') }}</p>
+        <p class="text-white dark:text-alabaster-500 mb-1">{{ i18n.global.t('message.confirmDelete') }}</p>
         <div class="flex justify-start items-center gap-x-2">
             <button type="submit" @click.stop="() => $emit('confirmClick')"
                 class="text-white bg-amber-600 hover:bg-amber-700 font-medium rounded text-xs px-3 py-1.5  text-center inline-flex items-center">
