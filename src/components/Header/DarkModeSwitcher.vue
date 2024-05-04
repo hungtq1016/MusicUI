@@ -8,7 +8,7 @@ const darkModeStore = useDarkModeStore()
 <template>
   <li>
     <label
-    :class="{ 'bg-primary': darkModeStore.darkMode, 'bg-stroke': !darkModeStore.darkMode }"
+    :class="{ 'bg-cerulean-blue-600': darkModeStore.darkMode, 'bg-stroke': !darkModeStore.darkMode }"
     class="relative m-0 block h-7.5 w-14 rounded-full"
     @click="darkModeStore.toggleDarkMode"
   >

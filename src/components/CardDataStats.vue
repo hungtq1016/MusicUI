@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const cardItems = ref([
   {
     icon: `<svg
-          class="fill-primary dark:fill-white"
+          class="fill-cerulean-blue-600 dark:fill-white"
           width="22"
           height="16"
           viewBox="0 0 22 16"
@@ -26,7 +26,7 @@ const cardItems = ref([
   },
   {
     icon: `<svg
-            class="fill-primary dark:fill-white"
+            class="fill-cerulean-blue-600 dark:fill-white"
             width="20"
             height="22"
             viewBox="0 0 20 22"
@@ -52,7 +52,7 @@ const cardItems = ref([
   },
   {
     icon: `<svg
-            class="fill-primary dark:fill-white"
+            class="fill-cerulean-blue-600 dark:fill-white"
             width="22"
             height="22"
             viewBox="0 0 22 22"
@@ -74,7 +74,7 @@ const cardItems = ref([
   },
   {
     icon: `<svg
-            class="fill-primary dark:fill-white"
+            class="fill-cerulean-blue-600 dark:fill-white"
             width="22"
             height="18"
             viewBox="0 0 22 18"
@@ -106,27 +106,27 @@ const cardItems = ref([
   <div
     v-for="(item, index) in cardItems"
     :key="index"
-    class="rounded-sm border border-stroke bg-white py-6 px-7.5 shadow-default dark:border-strokedark dark:bg-boxdark"
+    class="rounded-sm border border-zumthor-100 bg-white py-6 px-7.5 shadow-default dark:border-oxford-blue-900 dark:bg-big-stone-950 "
   >
     <div
-      class="flex h-11.5 w-11.5 items-center justify-center rounded-full bg-meta-2 dark:bg-meta-4"
+      class="flex h-11.5 w-11.5 items-center justify-center rounded-full bg-athens-gray-50 dark:bg-oxford-blue-900"
       v-html="item.icon"
     ></div>
 
     <div class="mt-4 flex items-end justify-between">
       <div>
-        <h4 class="text-title-md font-bold text-black dark:text-white">{{ item.total }}</h4>
+        <h4 class="text-title-md font-bold text-ebony-clay-950 dark:text-white">{{ item.total }}</h4>
         <span class="text-sm font-medium">{{ item.title }}</span>
       </div>
 
       <span
         class="flex items-center gap-1 text-sm font-medium"
-        :class="{ 'text-meta-3': item.growthRate > 0, 'text-meta-5': item.growthRate < 0 }"
+        :class="{ 'text-mountain-meadow-500': item.growthRate > 0, 'text-curious-blue-500': item.growthRate < 0 }"
       >
         {{ item.growthRate }}%
         <svg
           v-if="item.growthRate > 0"
-          class="fill-meta-3"
+          class="fill-mountain-meadow-500"
           width="10"
           height="11"
           viewBox="0 0 10 11"
@@ -141,7 +141,7 @@ const cardItems = ref([
 
         <svg
           v-if="item.growthRate < 0"
-          class="fill-meta-5"
+          class="fill-curious-blue-500"
           width="10"
           height="11"
           viewBox="0 0 10 11"

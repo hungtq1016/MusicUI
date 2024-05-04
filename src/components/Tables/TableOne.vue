@@ -43,7 +43,7 @@ const countItems = computed(() => itemsSelected.value.length);
 
 <template>
   <div
-    class="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
+    class="rounded-sm border border-zumthor-100 bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-oxford-blue-900 dark:bg-big-stone-950  sm:px-7.5 xl:pb-1">
     <div class="pb-2 flex gap-x-2">
       <TableSelectedHeader :value="selectedHeaders" :options="headers"
         @update:modelValue="value => selectedHeaders = value" />

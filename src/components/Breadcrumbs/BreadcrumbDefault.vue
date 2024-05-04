@@ -4,7 +4,7 @@ const props = defineProps(['pageTitle'])
 
 <template>
   <div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-    <h2 class="text-title-md2 font-semibold text-black dark:text-white">
+    <h2 class="text-title-md2 font-semibold text-ebony-clay-950 dark:text-white">
       {{ $t(props.pageTitle) }}
     </h2>
 
@@ -13,7 +13,7 @@ const props = defineProps(['pageTitle'])
         <li>
           <router-link class="font-medium" to="/"> {{ $t('navigation.dashboard') }} / </router-link>
         </li>
-        <li class="font-medium text-primary">{{ $t(props.pageTitle) }}</li>
+        <li class="font-medium text-cerulean-blue-600">{{ $t(props.pageTitle) }}</li>
       </ol>
     </nav>
   </div>

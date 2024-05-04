@@ -63,9 +63,9 @@ const isDateSelected = (day: any): boolean => {
 
 <template>
   <div
-    class="w-full max-w-full rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"
+    class="w-full max-w-full rounded-sm border border-zumthor-100 bg-white shadow-default dark:border-oxford-blue-900 dark:bg-big-stone-950 "
   >
-    <div class="grid grid-cols-7 rounded-t-sm bg-primary text-white">
+    <div class="grid grid-cols-7 rounded-t-sm bg-cerulean-blue-600 text-white">
       <template v-for="day in days" :key="day">
         <div
           class="flex h-15 items-center justify-center p-1 text-xs font-semibold sm:text-base xl:p-5 first:rounded-tl-sm last:rounded-tr-sm"
@@ -81,25 +81,25 @@ const isDateSelected = (day: any): boolean => {
       <div
         v-for="(day, index) in calendarDays"
         :key="index"
-        class="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31"
+        class="ease relative h-20 cursor-pointer border border-zumthor-100 p-2 transition duration-500 hover:bg-zircon-50 dark:border-oxford-blue-900 dark:hover:bg-oxford-blue-900 md:h-25 md:p-6 xl:h-31"
       >
         <div
           class="mx-auto flex h-24 w-10 flex-col overflow-hidden sm:w-full md:h-40 md:w-20 lg:w-28 2xl:w-40"
         >
-          <span class="font-medium text-black dark:text-white">{{ day.date }}</span>
+          <span class="font-medium text-ebony-clay-950 dark:text-white">{{ day.date }}</span>
 
           <div
             v-if="isDateSelected(day)"
             class="group h-16 w-full flex-grow cursor-pointer py-1 md:h-30"
           >
-            <span class="group-hover:text-primary md:hidden"> More </span>
+            <span class="group-hover:text-cerulean-blue-600 md:hidden"> More </span>
             <div
-              class="event invisible absolute left-2 z-99 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[190%] md:opacity-100"
+              class="event invisible absolute left-2 z-99 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-cerulean-blue-600 bg-zircon-50 px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-oxford-blue-900 md:visible md:w-[190%] md:opacity-100"
             >
-              <span class="event-name text-sm font-semibold text-black dark:text-white">
+              <span class="event-name text-sm font-semibold text-ebony-clay-950 dark:text-white">
                 Redesign Website
               </span>
-              <span class="time text-sm font-medium text-black dark:text-white">
+              <span class="time text-sm font-medium text-ebony-clay-950 dark:text-white">
                 1 Dec - 2 Dec
               </span>
             </div>

@@ -15,7 +15,7 @@ const checkboxToggle = ref<boolean>(false)
           @change="checkboxToggle = !checkboxToggle"
         />
         <div
-          :class="checkboxToggle && 'border-primary bg-gray dark:bg-transparent'"
+          :class="checkboxToggle && 'border-cerulean-blue-600 bg-zircon-50 dark:bg-transparent'"
           class="mr-4 flex h-5 w-5 items-center justify-center rounded border"
         >
           <span :class="checkboxToggle && '!opacity-100'" class="opacity-0">

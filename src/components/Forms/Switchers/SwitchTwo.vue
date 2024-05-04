@@ -14,9 +14,9 @@ const switcherToggle = ref<boolean>(false)
           class="sr-only"
           @change="switcherToggle = !switcherToggle"
         />
-        <div class="h-5 w-14 rounded-full bg-meta-9 shadow-inner dark:bg-[#5A616B]"></div>
+        <div class="h-5 w-14 rounded-full bg-anthes-gray-100 shadow-inner dark:bg-[#5A616B]"></div>
         <div
-          :class="switcherToggle && '!right-0 !translate-x-full !bg-primary dark:!bg-white'"
+          :class="switcherToggle && '!right-0 !translate-x-full !bg-cerulean-blue-600 dark:!bg-white'"
           class="dot absolute left-0 -top-1 h-7 w-7 rounded-full bg-white shadow-switch-1 transition"
         ></div>
       </div>

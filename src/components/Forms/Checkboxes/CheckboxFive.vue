@@ -16,7 +16,7 @@ const checkboxToggle = ref<boolean>(false)
         />
         <div
           :class="checkboxToggle && '!border-4'"
-          class="box mr-4 flex h-5 w-5 items-center justify-center rounded-full border border-primary"
+          class="box mr-4 flex h-5 w-5 items-center justify-center rounded-full border border-cerulean-blue-600"
         >
           <span class="h-2.5 w-2.5 rounded-full bg-white dark:bg-transparent"> </span>
         </div>

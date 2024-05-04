@@ -58,16 +58,16 @@ const messagesList = ref([
 <template>
   <li class="relative" ref="target">
     <router-link
-      class="relative flex h-8.5 w-8.5 items-center justify-center rounded-full border-[0.5px] border-stroke bg-gray hover:text-primary dark:border-strokedark dark:bg-meta-4 dark:text-white"
+      class="relative flex h-8.5 w-8.5 items-center justify-center rounded-full border-[0.5px] border-zumthor-100 bg-zircon-50 hover:text-cerulean-blue-600 dark:border-oxford-blue-900 dark:bg-oxford-blue-900 dark:text-white"
       to="#"
       @click.prevent="(dropdownOpen = !dropdownOpen), (notifying = false)"
     >
       <span
         :class="!notifying && 'hidden'"
-        class="absolute -top-0.5 -right-0.5 z-1 h-2 w-2 rounded-full bg-meta-1"
+        class="absolute -top-px -right-px z-1 h-2 w-2 rounded-full bg-red-ribbon-600"
       >
         <span
-          class="absolute -z-1 inline-flex h-full w-full animate-ping rounded-full bg-meta-1 opacity-75"
+          class="absolute -z-1 inline-flex h-full w-full animate-ping rounded-full bg-red-ribbon-600 opacity-75"
         ></span>
       </span>
       <ChatBubbleOvalLeftEllipsisIcon class="w-5 h-5 duration-300 ease-in-out" />
@@ -76,17 +76,17 @@ const messagesList = ref([
     <!-- Dropdown Start -->
     <div
       v-show="dropdownOpen"
-      class="absolute -right-16 mt-2.5 flex h-90 w-75 flex-col rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark sm:right-0 sm:w-80"
+      class="absolute -right-16 mt-2.5 flex h-90 w-75 flex-col rounded-sm border border-zumthor-100 bg-white shadow-default dark:border-oxford-blue-900 dark:bg-big-stone-950  sm:right-0 sm:w-80"
     >
       <div class="px-4.5 py-3">
-        <h5 class="text-sm font-medium text-bodydark2">Messages</h5>
+        <h5 class="text-sm font-medium text-regent-gray-600 ">Messages</h5>
       </div>
 
       <ul class="flex h-auto flex-col overflow-y-auto">
         <template v-for="(item, index) in messagesList" :key="index">
           <li>
             <router-link
-              class="flex gap-4.5 border-t border-stroke px-4.5 py-3 hover:bg-gray-2 dark:border-strokedark dark:hover:bg-meta-4"
+              class="flex gap-4.5 border-t border-zumthor-100 px-4.5 py-3 hover:bg-black-haze-50 dark:border-oxford-blue-900 dark:hover:bg-oxford-blue-900"
               :to="item.route"
             >
               <div class="h-12.5 w-12.5 rounded-full">
@@ -94,7 +94,7 @@ const messagesList = ref([
               </div>
 
               <div>
-                <h6 class="text-sm font-medium text-black dark:text-white">{{ item.name }}</h6>
+                <h6 class="text-sm font-medium text-ebony-clay-950 dark:text-white">{{ item.name }}</h6>
                 <p class="text-sm">{{ item.message }}</p>
                 <p class="text-xs">{{ item.time }}</p>
               </div>

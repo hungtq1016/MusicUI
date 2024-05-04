@@ -11,13 +11,13 @@ const changeTextColor = () => {
 
 <template>
   <div class="mb-4.5">
-    <label class="mb-2.5 block text-black dark:text-white"> Subject </label>
+    <label class="mb-2.5 block text-ebony-clay-950 dark:text-white"> Subject </label>
 
-    <div class="relative z-20 bg-transparent dark:bg-form-input">
+    <div class="relative z-20 bg-transparent dark:bg-big-stone-950">
       <select
         v-model="selectedOption"
-        class="relative z-20 w-full appearance-none rounded border border-stroke bg-transparent py-3 px-5 outline-none transition focus:border-primary active:border-primary dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
-        :class="{ 'text-black dark:text-white': isOptionSelected }"
+        class="relative z-20 w-full appearance-none rounded border border-zumthor-100 bg-transparent py-3 px-5 outline-none transition focus:border-cerulean-blue-600 active:border-cerulean-blue-600 dark:border-fiord-700 dark:bg-big-stone-950 dark:focus:border-cerulean-blue-600"
+        :class="{ 'text-ebony-clay-950 dark:text-white': isOptionSelected }"
         @change="changeTextColor"
       >
         <option value="" disabled selected>Select your subject</option>

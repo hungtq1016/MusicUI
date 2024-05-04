@@ -45,10 +45,10 @@ const updatePhoto = () => {
     <!-- Personal Information Section -->
     <div class="col-span-5 xl:col-span-3">
       <div
-        class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"
+        class="rounded-sm border border-zumthor-100 bg-white shadow-default dark:border-oxford-blue-900 dark:bg-big-stone-950 "
       >
-        <div class="border-b border-stroke py-4 px-7 dark:border-strokedark">
-          <h3 class="font-medium text-black dark:text-white">Personal Information</h3>
+        <div class="border-b border-zumthor-100 py-4 px-7 dark:border-oxford-blue-900">
+          <h3 class="font-medium text-ebony-clay-950 dark:text-white">Personal Information</h3>
         </div>
         <div class="p-7">
           <form @submit.prevent="handleSubmit">
@@ -56,7 +56,7 @@ const updatePhoto = () => {
             <div class="mb-5.5 flex flex-col gap-5.5 sm:flex-row">
               <div class="w-full sm:w-1/2">
                 <label
-                  class="mb-3 block text-sm font-medium text-black dark:text-white"
+                  class="mb-3 block text-sm font-medium text-ebony-clay-950 dark:text-white"
                   for="fullName"
                   >Full Name</label
                 >
@@ -88,7 +88,7 @@ const updatePhoto = () => {
                   </span>
                   <input
                     v-model="formData.fullName"
-                    class="w-full rounded border border-stroke bg-gray py-3 pl-11.5 pr-4.5 font-normal text-black focus:border-primary focus-visible:outline-none dark:border-strokedark dark:bg-meta-4 dark:text-white dark:focus:border-primary"
+                    class="w-full rounded border border-zumthor-100 bg-zircon-50 py-3 pl-11.5 pr-4.5 font-normal text-ebony-clay-950 focus:border-cerulean-blue-600 focus-visible:outline-none dark:border-oxford-blue-900 dark:bg-oxford-blue-900 dark:text-white dark:focus:border-cerulean-blue-600"
                     type="text"
                     name="fullName"
                     id="fullName"
@@ -100,13 +100,13 @@ const updatePhoto = () => {
               <!-- Phone Number Section -->
               <div class="w-full sm:w-1/2">
                 <label
-                  class="mb-3 block text-sm font-medium text-black dark:text-white"
+                  class="mb-3 block text-sm font-medium text-ebony-clay-950 dark:text-white"
                   for="phoneNumber"
                   >Phone Number</label
                 >
                 <input
                   v-model="formData.phoneNumber"
-                  class="w-full rounded border border-stroke bg-gray py-3 px-4.5 font-normal text-black focus:border-primary focus-visible:outline-none dark:border-strokedark dark:bg-meta-4 dark:text-white dark:focus:border-primary"
+                  class="w-full rounded border border-zumthor-100 bg-zircon-50 py-3 px-4.5 font-normal text-ebony-clay-950 focus:border-cerulean-blue-600 focus-visible:outline-none dark:border-oxford-blue-900 dark:bg-oxford-blue-900 dark:text-white dark:focus:border-cerulean-blue-600"
                   type="text"
                   name="phoneNumber"
                   id="phoneNumber"
@@ -118,7 +118,7 @@ const updatePhoto = () => {
             <!-- Email Address Section -->
             <div class="mb-5.5">
               <label
-                class="mb-3 block text-sm font-medium text-black dark:text-white"
+                class="mb-3 block text-sm font-medium text-ebony-clay-950 dark:text-white"
                 for="emailAddress"
                 >Email Address</label
               >
@@ -150,7 +150,7 @@ const updatePhoto = () => {
                 </span>
                 <input
                   v-model="formData.emailAddress"
-                  class="w-full rounded border border-stroke bg-gray py-3 pl-11.5 pr-4.5 font-normal text-black focus:border-primary focus-visible:outline-none dark:border-strokedark dark:bg-meta-4 dark:text-white dark:focus:border-primary"
+                  class="w-full rounded border border-zumthor-100 bg-zircon-50 py-3 pl-11.5 pr-4.5 font-normal text-ebony-clay-950 focus:border-cerulean-blue-600 focus-visible:outline-none dark:border-oxford-blue-900 dark:bg-oxford-blue-900 dark:text-white dark:focus:border-cerulean-blue-600"
                   type="email"
                   name="emailAddress"
                   id="emailAddress"
@@ -162,13 +162,13 @@ const updatePhoto = () => {
             <!-- Username Section -->
             <div class="mb-5.5">
               <label
-                class="mb-3 block text-sm font-medium text-black dark:text-white"
+                class="mb-3 block text-sm font-medium text-ebony-clay-950 dark:text-white"
                 for="Username"
                 >Username</label
               >
               <input
                 v-model="formData.username"
-                class="w-full rounded border border-stroke bg-gray py-3 px-4.5 font-normal text-black focus:border-primary focus-visible:outline-none dark:border-strokedark dark:bg-meta-4 dark:text-white dark:focus:border-primary"
+                class="w-full rounded border border-zumthor-100 bg-zircon-50 py-3 px-4.5 font-normal text-ebony-clay-950 focus:border-cerulean-blue-600 focus-visible:outline-none dark:border-oxford-blue-900 dark:bg-oxford-blue-900 dark:text-white dark:focus:border-cerulean-blue-600"
                 type="text"
                 name="Username"
                 id="Username"
@@ -178,7 +178,7 @@ const updatePhoto = () => {
 
             <!-- Bio Section -->
             <div class="mb-5.5">
-              <label class="mb-3 block text-sm font-medium text-black dark:text-white" for="bio"
+              <label class="mb-3 block text-sm font-medium text-ebony-clay-950 dark:text-white" for="bio"
                 >BIO</label
               >
               <div class="relative">
@@ -214,7 +214,7 @@ const updatePhoto = () => {
                 </span>
                 <textarea
                   v-model="formData.bio"
-                  class="w-full rounded border border-stroke bg-gray py-3 pl-11.5 pr-4.5 font-normal text-black focus:border-primary focus-visible:outline-none dark:border-strokedark dark:bg-meta-4 dark:text-white dark:focus:border-primary"
+                  class="w-full rounded border border-zumthor-100 bg-zircon-50 py-3 pl-11.5 pr-4.5 font-normal text-ebony-clay-950 focus:border-cerulean-blue-600 focus-visible:outline-none dark:border-oxford-blue-900 dark:bg-oxford-blue-900 dark:text-white dark:focus:border-cerulean-blue-600"
                   name="bio"
                   id="bio"
                   rows="6"
@@ -226,14 +226,14 @@ const updatePhoto = () => {
             <!-- Save and Cancel Buttons -->
             <div class="flex justify-end gap-4.5">
               <button
-                class="flex justify-center rounded border border-stroke py-2 px-6 font-medium text-black hover:shadow-1 dark:border-strokedark dark:text-white"
+                class="flex justify-center rounded border border-zumthor-100 py-2 px-6 font-medium text-ebony-clay-950 hover:shadow-1 dark:border-oxford-blue-900 dark:text-white"
                 type="button"
                 @click="handleCancel"
               >
                 Cancel
               </button>
               <button
-                class="flex justify-center rounded bg-primary py-2 px-6 font-medium text-gray hover:bg-opacity-90"
+                class="flex justify-center rounded bg-cerulean-blue-600 py-2 px-6 font-medium text-zircon-50 hover:bg-opacity-90"
                 type="submit"
               >
                 Save
@@ -247,10 +247,10 @@ const updatePhoto = () => {
     <!-- Your Photo Section -->
     <div class="col-span-5 xl:col-span-2">
       <div
-        class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"
+        class="rounded-sm border border-zumthor-100 bg-white shadow-default dark:border-oxford-blue-900 dark:bg-big-stone-950 "
       >
-        <div class="border-b border-stroke py-4 px-7 dark:border-strokedark">
-          <h3 class="font-medium text-black dark:text-white">Your Photo</h3>
+        <div class="border-b border-zumthor-100 py-4 px-7 dark:border-oxford-blue-900">
+          <h3 class="font-medium text-ebony-clay-950 dark:text-white">Your Photo</h3>
         </div>
         <div class="p-7">
           <form @submit.prevent="handlePhotoSubmit">
@@ -260,12 +260,12 @@ const updatePhoto = () => {
                 <img :src="userPhoto" alt="User" />
               </div>
               <div>
-                <span class="mb-1.5 font-medium text-black dark:text-white">Edit your photo</span>
+                <span class="mb-1.5 font-medium text-ebony-clay-950 dark:text-white">Edit your photo</span>
                 <span class="flex gap-2.5">
-                  <button class="text-sm font-medium hover:text-primary" @click="deletePhoto">
+                  <button class="text-sm font-medium hover:text-cerulean-blue-600" @click="deletePhoto">
                     Delete
                   </button>
-                  <button class="text-sm font-medium hover:text-primary" @click="updatePhoto">
+                  <button class="text-sm font-medium hover:text-cerulean-blue-600" @click="updatePhoto">
                     Update
                   </button>
                 </span>
@@ -275,7 +275,7 @@ const updatePhoto = () => {
             <!-- File Upload Section -->
             <div
               id="FileUpload"
-              class="relative mb-5.5 block w-full cursor-pointer appearance-none rounded border-2 border-dashed border-primary bg-gray py-4 px-4 dark:bg-meta-4 sm:py-7.5"
+              class="relative mb-5.5 block w-full cursor-pointer appearance-none rounded border-2 border-dashed border-cerulean-blue-600 bg-zircon-50 py-4 px-4 dark:bg-oxford-blue-900 sm:py-7.5"
             >
               <input
                 type="file"
@@ -285,7 +285,7 @@ const updatePhoto = () => {
               />
               <div class="flex flex-col items-center justify-center space-y-3">
                 <span
-                  class="flex h-10 w-10 items-center justify-center rounded-full border border-stroke bg-white dark:border-strokedark dark:bg-boxdark"
+                  class="flex h-10 w-10 items-center justify-center rounded-full border border-zumthor-100 bg-white dark:border-oxford-blue-900 dark:bg-big-stone-950 "
                 >
                   <svg
                     width="16"
@@ -315,7 +315,7 @@ const updatePhoto = () => {
                   </svg>
                 </span>
                 <p class="text-sm font-medium">
-                  <span class="text-primary">Click to upload</span> or drag and drop
+                  <span class="text-cerulean-blue-600">Click to upload</span> or drag and drop
                 </p>
                 <p class="mt-1.5 text-sm font-medium">SVG, PNG, JPG or GIF</p>
                 <p class="text-sm font-medium">(max, 800 X 800px)</p>
@@ -325,14 +325,14 @@ const updatePhoto = () => {
             <!-- Save and Cancel Buttons for Photo Section -->
             <div class="flex justify-end gap-4.5">
               <button
-                class="flex justify-center rounded border border-stroke py-2 px-6 font-medium text-black hover:shadow-1 dark:border-strokedark dark:text-white"
+                class="flex justify-center rounded border border-zumthor-100 py-2 px-6 font-medium text-ebony-clay-950 hover:shadow-1 dark:border-oxford-blue-900 dark:text-white"
                 type="button"
                 @click="handlePhotoCancel"
               >
                 Cancel
               </button>
               <button
-                class="flex justify-center rounded bg-primary py-2 px-6 font-medium text-gray hover:bg-opacity-90"
+                class="flex justify-center rounded bg-cerulean-blue-600 py-2 px-6 font-medium text-zircon-50 hover:bg-opacity-90"
                 type="submit"
               >
                 Save

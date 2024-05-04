@@ -11,10 +11,10 @@ const changeTextColor = () => {
 
 <template>
   <div>
-    <label class="mb-3 block text-sm font-medium text-black dark:text-white">
+    <label class="mb-3 block text-sm font-medium text-ebony-clay-950 dark:text-white">
       Select Country
     </label>
-    <div class="relative z-20 bg-white dark:bg-form-input">
+    <div class="relative z-20 bg-white dark:bg-big-stone-950">
       <span class="absolute top-1/2 left-4 z-30 -translate-y-1/2">
         <svg
           width="20"
@@ -47,14 +47,14 @@ const changeTextColor = () => {
       </span>
       <select
         v-model="selectedOption"
-        :class="{ 'text-black dark:text-white': isOptionSelected }"
+        :class="{ 'text-ebony-clay-950 dark:text-white': isOptionSelected }"
         @change="changeTextColor"
-        class="relative z-20 w-full appearance-none rounded border border-stroke bg-transparent py-3 px-12 outline-none transition focus:border-primary active:border-primary dark:border-form-strokedark dark:bg-form-input"
+        class="relative z-20 w-full appearance-none rounded border border-zumthor-100 bg-transparent py-3 px-12 outline-none transition focus:border-cerulean-blue-600 active:border-cerulean-blue-600 dark:border-fiord-700 dark:bg-big-stone-950"
       >
         <option value="" disabled selected>Select Country</option>
-        <option value="USA" class="text-body dark:text-bodydark">USA</option>
-        <option value="UK" class="text-body dark:text-bodydark">UK</option>
-        <option value="Canada" class="text-body dark:text-bodydark">Canada</option>
+        <option value="USA" class="text-lynch-500 dark:text-hit-gray-400">USA</option>
+        <option value="UK" class="text-lynch-500 dark:text-hit-gray-400">UK</option>
+        <option value="Canada" class="text-lynch-500 dark:text-hit-gray-400">Canada</option>
       </select>
       <span class="absolute top-1/2 right-4 z-10 -translate-y-1/2">
         <svg

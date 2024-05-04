@@ -15,8 +15,8 @@ const switcherToggle = ref<boolean>(false)
           @change="switcherToggle = !switcherToggle"
         />
         <div
-          :class="switcherToggle && '!bg-primary'"
-          class="block h-8 w-14 rounded-full bg-black"
+          :class="switcherToggle && '!bg-cerulean-blue-600'"
+          class="block h-8 w-14 rounded-full bg-ebony-clay-950"
         ></div>
         <div
           :class="switcherToggle && '!right-1 !translate-x-full'"

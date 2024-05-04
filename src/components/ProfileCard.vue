@@ -1,7 +1,7 @@
 <template>
   <!-- ====== Profile Section Start -->
   <div
-    class="overflow-hidden rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"
+    class="overflow-hidden rounded-sm border border-zumthor-100 bg-white shadow-default dark:border-oxford-blue-900 dark:bg-big-stone-950 "
   >
     <div class="relative z-20 h-35 md:h-65">
       <img
@@ -12,7 +12,7 @@
       <div class="absolute bottom-1 right-1 z-10 xsm:bottom-4 xsm:right-4">
         <label
           for="cover"
-          class="flex cursor-pointer items-center justify-center gap-2 rounded bg-primary py-1 px-2 text-sm font-medium text-white hover:bg-opacity-80 xsm:px-4"
+          class="flex cursor-pointer items-center justify-center gap-2 rounded bg-cerulean-blue-600 py-1 px-2 text-sm font-medium text-white hover:bg-opacity-80 xsm:px-4"
         >
           <input type="file" name="cover" id="cover" class="sr-only" />
           <span>
@@ -50,7 +50,7 @@
           <img src="@/assets/images/user/user-06.png" alt="profile" />
           <label
             for="profile"
-            class="absolute bottom-0 right-0 flex h-8.5 w-8.5 cursor-pointer items-center justify-center rounded-full bg-primary text-white hover:bg-opacity-90 sm:bottom-2 sm:right-2"
+            class="absolute bottom-0 right-0 flex h-8.5 w-8.5 cursor-pointer items-center justify-center rounded-full bg-cerulean-blue-600 text-white hover:bg-opacity-90 sm:bottom-2 sm:right-2"
           >
             <svg
               class="fill-current"
@@ -78,31 +78,31 @@
         </div>
       </div>
       <div class="mt-4">
-        <h3 class="mb-1.5 text-2xl font-medium text-black dark:text-white">Danish Heilium</h3>
+        <h3 class="mb-1.5 text-2xl font-medium text-ebony-clay-950 dark:text-white">Danish Heilium</h3>
         <p class="font-medium">Ui/Ux Designer</p>
         <div
-          class="mx-auto mt-4.5 mb-5.5 grid max-w-94 grid-cols-3 rounded-md border border-stroke py-2.5 shadow-1 dark:border-strokedark dark:bg-[#37404F]"
+          class="mx-auto mt-4.5 mb-5.5 grid max-w-94 grid-cols-3 rounded-md border border-zumthor-100 py-2.5 shadow-1 dark:border-oxford-blue-900 dark:bg-[#37404F]"
         >
           <div
-            class="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-strokedark xsm:flex-row"
+            class="flex flex-col items-center justify-center gap-1 border-r border-zumthor-100 px-4 dark:border-oxford-blue-900 xsm:flex-row"
           >
-            <span class="font-semibold text-black dark:text-white">259</span>
+            <span class="font-semibold text-ebony-clay-950 dark:text-white">259</span>
             <span class="text-sm">Posts</span>
           </div>
           <div
-            class="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-strokedark xsm:flex-row"
+            class="flex flex-col items-center justify-center gap-1 border-r border-zumthor-100 px-4 dark:border-oxford-blue-900 xsm:flex-row"
           >
-            <span class="font-semibold text-black dark:text-white">129K</span>
+            <span class="font-semibold text-ebony-clay-950 dark:text-white">129K</span>
             <span class="text-sm">Followers</span>
           </div>
           <div class="flex flex-col items-center justify-center gap-1 px-4 xsm:flex-row">
-            <span class="font-semibold text-black dark:text-white">2K</span>
+            <span class="font-semibold text-ebony-clay-950 dark:text-white">2K</span>
             <span class="text-sm">Following</span>
           </div>
         </div>
 
         <div class="mx-auto max-w-180">
-          <h4 class="font-medium text-black dark:text-white">About Me</h4>
+          <h4 class="font-medium text-ebony-clay-950 dark:text-white">About Me</h4>
           <p class="mt-4.5 text-sm font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere fermentum
             urna, eu condimentum mauris tempus ut. Donec fermentum blandit aliquet. Etiam dictum
@@ -112,9 +112,9 @@
         </div>
 
         <div class="mt-6.5">
-          <h4 class="mb-3.5 font-medium text-black dark:text-white">Follow me on</h4>
+          <h4 class="mb-3.5 font-medium text-ebony-clay-950 dark:text-white">Follow me on</h4>
           <div class="flex items-center justify-center gap-3.5">
-            <a href="#" class="hover:text-primary" name="social-icon" aria-label="social-icon">
+            <a href="#" class="hover:text-cerulean-blue-600" name="social-icon" aria-label="social-icon">
               <svg
                 class="fill-current"
                 width="22"
@@ -136,7 +136,7 @@
                 </defs>
               </svg>
             </a>
-            <a href="#" class="hover:text-primary" name="social-icon" aria-label="social-icon">
+            <a href="#" class="hover:text-cerulean-blue-600" name="social-icon" aria-label="social-icon">
               <svg
                 class="fill-current"
                 width="23"
@@ -158,7 +158,7 @@
                 </defs>
               </svg>
             </a>
-            <a href="#" class="hover:text-primary" name="social-icon" aria-label="social-icon">
+            <a href="#" class="hover:text-cerulean-blue-600" name="social-icon" aria-label="social-icon">
               <svg
                 class="fill-current"
                 width="23"
@@ -180,7 +180,7 @@
                 </defs>
               </svg>
             </a>
-            <a href="#" class="hover:text-primary" name="social-icon" aria-label="social-icon">
+            <a href="#" class="hover:text-cerulean-blue-600" name="social-icon" aria-label="social-icon">
               <svg
                 class="fill-current"
                 width="22"
@@ -202,7 +202,7 @@
                 </defs>
               </svg>
             </a>
-            <a href="#" class="hover:text-primary" name="social-icon" aria-label="social-icon">
+            <a href="#" class="hover:text-cerulean-blue-600" name="social-icon" aria-label="social-icon">
               <svg
                 class="fill-current"
                 width="23"

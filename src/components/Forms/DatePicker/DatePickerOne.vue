@@ -19,10 +19,10 @@ onMounted(() => {
 
 <template>
   <div>
-    <label class="mb-3 block text-sm font-medium text-black dark:text-white"> Date picker </label>
+    <label class="mb-3 block text-sm font-medium text-ebony-clay-950 dark:text-white"> Date picker </label>
     <div class="relative">
       <input
-        class="datepicker w-full rounded border-[1.5px] border-stroke bg-transparent py-3 px-5 font-normal outline-none transition focus:border-primary active:border-primary dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
+        class="datepicker w-full rounded border-[1.5px] border-zumthor-100 bg-transparent py-3 px-5 font-normal outline-none transition focus:border-cerulean-blue-600 active:border-cerulean-blue-600 dark:border-fiord-700 dark:bg-big-stone-950 dark:focus:border-cerulean-blue-600"
         placeholder="mm/dd/yyyy"
         data-class="flatpickr-right"
       />

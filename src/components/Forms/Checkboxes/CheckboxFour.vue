@@ -15,11 +15,11 @@ const checkboxToggle = ref<boolean>(false)
           @change="checkboxToggle = !checkboxToggle"
         />
         <div
-          :class="checkboxToggle && 'border-primary'"
+          :class="checkboxToggle && 'border-cerulean-blue-600'"
           class="mr-4 flex h-5 w-5 items-center justify-center rounded-full border"
         >
           <span
-            :class="checkboxToggle && '!bg-primary'"
+            :class="checkboxToggle && '!bg-cerulean-blue-600'"
             class="h-2.5 w-2.5 rounded-full bg-transparent"
           >
           </span>

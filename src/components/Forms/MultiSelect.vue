@@ -70,7 +70,7 @@ const selectedValues = () => {
 
 <template>
   <div class="relative z-50">
-    <label class="mb-3 block text-sm font-medium text-black dark:text-white">
+    <label class="mb-3 block text-sm font-medium text-ebony-clay-950 dark:text-white">
       Multiselect Dropdown
     </label>
     <div>
@@ -87,16 +87,16 @@ const selectedValues = () => {
           <div class="relative flex flex-col items-center">
             <div @click="open" class="w-full">
               <div
-                class="mb-2 flex rounded border border-stroke py-2 pl-3 pr-3 outline-none transition focus:border-primary active:border-primary dark:border-form-strokedark dark:bg-form-input"
+                class="mb-2 flex rounded border border-zumthor-100 py-2 pl-3 pr-3 outline-none transition focus:border-cerulean-blue-600 active:border-cerulean-blue-600 dark:border-fiord-700 dark:bg-big-stone-950"
               >
                 <div class="flex flex-auto flex-wrap gap-3">
                   <template v-for="index in selected" :key="index">
                     <div
-                      class="my-1.5 flex items-center justify-center rounded border-[.5px] border-stroke bg-gray px-2.5 py-1.5 text-sm font-medium dark:border-strokedark dark:bg-white/30"
+                      class="my-1.5 flex items-center justify-center rounded border-[.5px] border-zumthor-100 bg-zircon-50 px-2.5 py-1.5 text-sm font-medium dark:border-oxford-blue-900 dark:bg-white/30"
                     >
                       <div class="max-w-full flex-initial">{{ options[index].text }}</div>
                       <div class="flex flex-auto flex-row-reverse">
-                        <div @click="remove(index)" class="cursor-pointer pl-2 hover:text-danger">
+                        <div @click="remove(index)" class="cursor-pointer pl-2 hover:text-red-600">
                           <svg
                             class="fill-current"
                             role="button"
@@ -157,18 +157,18 @@ const selectedValues = () => {
               <div
                 v-show="isOpen()"
                 ref="target"
-                class="max-h-select absolute left-0 top-full z-40 w-full overflow-y-auto rounded bg-white shadow dark:bg-form-input"
+                class="max-h-select absolute left-0 top-full z-40 w-full overflow-y-auto rounded bg-white shadow dark:bg-big-stone-950"
               >
                 <div class="flex w-full flex-col">
                   <div v-for="(option, index) in options" :key="index">
                     <div
                       @click="select(index, $event)"
-                      class="w-full cursor-pointer rounded-t border-b border-stroke hover:bg-primary/5 dark:border-form-strokedark"
+                      class="w-full cursor-pointer rounded-t border-b border-zumthor-100 hover:bg-cerulean-blue-600/5 dark:border-fiord-700"
                     >
                       <div
                         :class="[
                           'relative flex w-full items-center border-l-2 border-transparent p-2 pl-2',
-                          option.selected ? 'border-primary' : ''
+                          option.selected ? 'border-cerulean-blue-600' : ''
                         ]"
                       >
                         <div class="flex w-full items-center">

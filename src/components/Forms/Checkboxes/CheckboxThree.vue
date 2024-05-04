@@ -15,10 +15,10 @@ const checkboxToggle = ref<boolean>(false)
           @change="checkboxToggle = !checkboxToggle"
         />
         <div
-          :class="checkboxToggle && 'border-primary bg-gray dark:bg-transparent'"
+          :class="checkboxToggle && 'border-cerulean-blue-600 bg-zircon-50 dark:bg-transparent'"
           class="box mr-4 flex h-5 w-5 items-center justify-center rounded border"
         >
-          <span :class="checkboxToggle && '!opacity-100'" class="text-primary opacity-0">
+          <span :class="checkboxToggle && '!opacity-100'" class="text-cerulean-blue-600 opacity-0">
             <svg
               class="h-3.5 w-3.5 stroke-current"
               fill="none"

@@ -62,15 +62,15 @@ const chatData = ref([
 
 <template>
   <div
-    class="col-span-12 rounded-sm border border-stroke bg-white py-6 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-4"
+    class="col-span-12 rounded-sm border border-zumthor-100 bg-white py-6 shadow-default dark:border-oxford-blue-900 dark:bg-big-stone-950  xl:col-span-4"
   >
-    <h4 class="mb-6 px-7.5 text-xl font-semibold text-black dark:text-white">Chats</h4>
+    <h4 class="mb-6 px-7.5 text-xl font-semibold text-ebony-clay-950 dark:text-white">Chats</h4>
 
     <div>
       <template v-for="(chat, index) in chatData" :key="index">
         <RouterLink
           to="/"
-          class="flex items-center gap-5 py-3 px-7.5 hover:bg-gray-3 dark:hover:bg-meta-4"
+          class="flex items-center gap-5 py-3 px-7.5 hover:bg-alabaster-50 dark:hover:bg-oxford-blue-900"
         >
           <div class="relative h-14 w-14 rounded-full">
             <img :src="chat.avatar" alt="User" />
@@ -82,15 +82,15 @@ const chatData = ref([
 
           <div class="flex flex-1 items-center justify-between">
             <div>
-              <h5 class="font-medium text-black dark:text-white">{{ chat.name }}</h5>
+              <h5 class="font-medium text-ebony-clay-950 dark:text-white">{{ chat.name }}</h5>
               <p>
-                <span class="text-sm text-black dark:text-white">{{ chat.text }}</span>
+                <span class="text-sm text-ebony-clay-950 dark:text-white">{{ chat.text }}</span>
                 <span class="text-xs"> . {{ chat.time }} min</span>
               </p>
             </div>
             <div
               v-if="chat.textCount !== 0"
-              class="flex h-6 w-6 items-center justify-center rounded-full bg-primary"
+              class="flex h-6 w-6 items-center justify-center rounded-full bg-cerulean-blue-600"
             >
               <span class="text-sm font-medium text-white"> {{ chat.textCount }}</span>
             </div>
